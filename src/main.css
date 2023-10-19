@@ -1,0 +1,39 @@
+body{
+ font-family: 'Work Sans', sans-serif;
+ display: grid;
+ place-items: center;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);transition: all 0.5s ease-out;
+
+}
+.container{
+ width: 500px!important;
+ height: 300px;
+ background-color: rgb(232, 192, 177);
+ transition: all 0.5s ease-out;
+display: flex;
+flex-direction: column;
+/* align-items: space-between; */
+gap: 80px;
+/* transition: transform 4s; */
+padding-top: 50px;
+border-radius: 13px;
+}
+.inputs{
+ transition: transform 4s ease-in-out 1s;
+ display: flex;
+ gap: 20px;
+}
+.error1{
+ display: none;
+ color: red;
+font-size: 16px;
+position: absolute;
+}
+.fisrtt{
+ display: flex!important;
+ flex-direction: column!important;
+}
